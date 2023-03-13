@@ -1,7 +1,7 @@
 C++ Project Template
 ====================
 
-This is a simple project template that uses [CMake](https://cmake.org/), the package manager [Conan](https://conan.io/), and the test library [Catch](https://github.com/catchorg/Catch2).
+This is a simple project template that uses [CMake](https://cmake.org/) and the package manager [Conan](https://conan.io/).
 
 Its main purpose is to provide a project structure that is ready to go with only minimal adjustments depending on the project itself.
 
@@ -24,11 +24,6 @@ project
 ├── src
 │   ├── CMakeLists.txt
 │   └── hello_world.cpp
-│
-└── tests
-    ├── CMakeLists.txt
-    ├── example_test.cpp
-    └── main.cpp
 ```
 
 ## Setup instructions
@@ -41,17 +36,3 @@ The folder structure can be copied and used directly with only a few minor adjus
 
 1. Modify the name of the project in the root `CMakeLists.txt`.
 2. Modify the include folder name
-
-## Recommended build instructions
-
-### Unix/MacOS
-
-From the root of the project:
-
-1. `mkdir build && cd build`
-2. `conan install .. && conan build ..`
-3. Run tests with `ctest -V`
-
-### Windows
-
-Coming soon™
