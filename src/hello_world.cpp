@@ -1,3 +1,4 @@
+#include <string>
 #include "libname/hello_world.h"
 
 std::string libname::helloWorld() {
