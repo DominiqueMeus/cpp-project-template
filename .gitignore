@@ -1,2 +1,6 @@
 # Ignore the standard build directory
 build/
+.vscode/
+CMakeFiles/
+CMakeCache.txt
+
